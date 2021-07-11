@@ -2,5 +2,8 @@ import time
 import pyautogui
 
 while True:
-    time.sleep(30)
-    pyautogui.moveRel(0,0)
+    pyautogui.press('volumedown')
+    time.sleep(10)
+    pyautogui.press('volumeup')
+    time.sleep(10)
+    
